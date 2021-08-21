@@ -1,0 +1,44 @@
+
+.container-right{
+    background: white;
+    height: 100vh;
+    width: 50%;
+  
+}
+.container-right h1 {
+    font-family: 'EB Garamond', serif;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+
+.container-right p{
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-family: 'EB Garamond', serif;
+    line-height: 28px;
+}
+
+.container-left{
+    background: url(../assets/img/sobremi.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.pantalla-dividida{
+    display: flex;
+}
+
+.boton {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+    font-family: 'EB Garamond', serif
+}
+
+.link{
+  margin: 80px;
+}

@@ -1,0 +1,193 @@
+.navbar-nav li {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black; }
+
+.navbar-brand img {
+  width: 50px;
+  height: auto; }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box; }
+
+.carousel-caption {
+  margin-bottom: 400px; }
+
+.carousel-caption h5 {
+  font-size: 60px;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 10px; }
+
+.carousel-caption p {
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  letter-spacing: 5px; }
+
+.carousel-item img {
+  filter: brightness(70%); }
+
+.container-right {
+  background: white;
+  height: 100vh;
+  width: 50%; }
+
+.container-right h1 {
+  font-family: 'EB Garamond', serif;
+  padding-top: 30px;
+  padding-left: 80px; }
+
+.container-right p {
+  width: 70%;
+  padding-top: 30px;
+  padding-left: 80px;
+  font-family: 'EB Garamond', serif;
+  line-height: 28px; }
+
+.container-left {
+  background: url(../assets/img/sobremi.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh; }
+
+.pantalla-dividida {
+  display: flex; }
+
+.boton {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: 300;
+  font-family: 'EB Garamond', serif; }
+
+.link {
+  margin: 80px; }
+
+.galeria h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  letter-spacing: 3px; }
+
+.galeria p {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  text-align: center;
+  letter-spacing: 3px; }
+
+.container-images {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.container-images .imagen {
+  width: 32%;
+  position: relative;
+  height: 250px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7); }
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.imagen img:hover {
+  filter: opacity(0.1);
+  cursor: pointer; }
+
+.servicios h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'EB Garamond', serif; }
+
+.servicios p {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  padding-bottom: 20px; }
+
+.card {
+  text-align: center;
+  font-family: 'EB Garamond', serif; }
+
+.btn-primary {
+  color: black;
+  background-color: #b7b7a4;
+  border-color: #b7b7a4;
+  font-size: 20px;
+  opacity: .8; }
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0; }
+
+ul {
+  list-style: none; }
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px; }
+
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative; }
+
+.footer-col p {
+  font-size: 13px;
+  color: white; }
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: black;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px; }
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px; }
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  display: block;
+  transition: all 0.3s ease; }
+
+.footer-col ul li a:hover {
+  padding-left: 10px; }
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease; }
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff; }
