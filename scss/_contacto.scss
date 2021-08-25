@@ -1,14 +1,56 @@
-// // .contacto_img {
-// //   background-image: url(../assets/img/img_contacto.jpg);
-// //   background-size: cover;
-// //     background-position: center;
-// //     width: 50%;
-// //     height: 100vh;
-// // }
-
-// .contacto h1 {
-//     font-size: 50px;
-    
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
 
 
-// }
+.contact {
+    padding-top: 40px;
+    padding-left: 80px;
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+.contact-form textarea{
+    resize: none;
+}
+
+.contact-wrapper{
+    // box-shadow: 0 0 20px 0 rgba (0, 0, 0, .3);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+//============== PONER MEDIA QUERY==========//
+        & img{
+            width: 100%;
+            height: auto;
+        }
+}
+
+.contact-form form p {
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+.contact-form form button, .contact-form form input, .contact-form form textarea {
+    max-width: 450px;
+    padding: 10px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.contact-form form button {
+    background: grey;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px;
+}
